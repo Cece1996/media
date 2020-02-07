@@ -1,0 +1,19 @@
+main{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	grid-row-gap: 10px;
+	text-align: justify;
+	color: #000000;
+}
+img,.small, video{
+	height: 250px;
+	width: 250px;
+}
+body{
+	background-image: url("assets/image/cube.jpg");/*Photo by Honey Yanibel Minaya Cruz on Unsplash*/
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: ;
+	height: 1800px;
+}
